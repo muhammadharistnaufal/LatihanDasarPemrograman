@@ -1,0 +1,26 @@
+namabarang = input ("Masukan nama barang")
+hargabarang = int (input ("Masukan harga barang") )
+nama_barang = input ("Masukan nama barang")
+harga_barang = int (input ("Masukan harga barang") )
+_namabarang = input ("Masukan nama barang")
+_hargabarang = int (input ("Masukan harga barang") )
+
+a = 15
+persen = (a/100)
+print ("\n")
+print ("Nama barang =",namabarang)
+Hargajual = int (hargabarang * persen)
+print ("Keuntungan = ", Hargajual)
+print ("harga total =", hargabarang + Hargajual)
+print ("\n")
+print ("Nama barang = ",nama_barang)
+Harga_jual = int (harga_barang * persen)
+print ("Keuntungan = ", Harga_jual)
+print ("harga total =", harga_barang + Harga_jual)
+print ("\n")
+print ("Nama barang = ",_namabarang)
+_Hargajual = int (_hargabarang * persen)
+print ("Keuntungan = ", _Hargajual)
+print ("harga total =", _hargabarang + _Hargajual)
+
+
